@@ -31,3 +31,4 @@ if (limiter.tryConsume(userId)) {
 - Supports 10K+ concurrent limits
 
 ## License: MIT
+# Example
