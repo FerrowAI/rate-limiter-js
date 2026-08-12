@@ -1,7 +1,7 @@
 # rate-limiter-js
 > In-memory sliding-window rate limiter
 
-Dead-simple, in-memory rate limiting. Sliding window with minimal overhead. ```javascript const limiter = new RateLimiter({ maxRequests: 100, windowMs: 60000 });
+Dead-simple, in-memory rate limiting. Sliding window with minimal overhead. Tracks request counts in a configurable time window and rejects requests that exceed the limit, making it ideal for API throttling and resource budgeting.
 
 ## API
 - `RateLimiterOptions`
