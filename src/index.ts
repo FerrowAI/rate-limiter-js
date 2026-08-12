@@ -37,3 +37,4 @@ export class RateLimiter {
     return timestamps.filter(t => t > Date.now() - this.windowMs).length;
   }
 }
+export class RedisBackend {}
