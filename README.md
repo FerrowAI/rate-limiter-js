@@ -1,4 +1,5 @@
 # Rate Limiter
+![CI](https://github.com/FerrowAI/rate-limiter-js/actions/workflows/ci.yml/badge.svg)
 
 Dead-simple, in-memory rate limiting. Sliding window with minimal overhead.
 
