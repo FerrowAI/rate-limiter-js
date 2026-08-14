@@ -1,4 +1,6 @@
 # rate-limiter-js
+
+Install: npm install @ferrow/rate-limiter-js
 > In-memory sliding-window rate limiter
 
 Dead-simple, in-memory rate limiting. Sliding window with minimal overhead. Tracks request counts in a configurable time window and rejects requests that exceed the limit, making it ideal for API throttling and resource budgeting.
